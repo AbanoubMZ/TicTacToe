@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10pt"
+    android:layout_marginVertical="10pt"
+    android:paddingTop="5pt"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="364dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="5pt" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Score"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="364dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="5pt" >
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="364dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="30pt"
+        android:paddingLeft="5pt">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="364dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="5pt">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="3pt"
+            android:layout_marginVertical="3pt"
+            android:onClick="btnClick"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginVertical="3pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btnClick"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginVertical="3pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="364dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="5pt">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btnClick"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginBottom="60pt"
+        android:gravity="center"
+        android:paddingLeft="5pt"
+        />
+
+</TableLayout>
